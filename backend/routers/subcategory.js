@@ -1,7 +1,7 @@
 const express = require('express');
 const Subcategory = require('../models/Subcategory'); // Mô hình Subcategory
 const router = express.Router();
-
+ 
 // Lấy danh sách subcategories theo categoryId
 router.get('/:categoryId', async (req, res) => {
   const { categoryId } = req.params; // Lấy categoryId từ URL
