@@ -1,7 +1,7 @@
 const express = require("express");
 const Category = require("../models/Category"); // Import mô hình Category
 const router = express.Router();
-
+ 
 // Lấy tất cả subcategories với name và image 
 router.get("/", async (req, res) => {
   try {
