@@ -1,6 +1,6 @@
 // models/Subcategory.js
 const mongoose = require("mongoose");
-
+  
 const subcategorySchema = new mongoose.Schema({
   _id: {
     type: String,  // Đảm bảo _id là một chuỗi
