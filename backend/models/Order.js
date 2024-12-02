@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const OrderSchema = new mongoose.Schema({
   userId: { type: String, required: true }, // ID người dùng
   products: [
-    {
+    { 
       productId: { type: String, required: true }, // ID sản phẩm
       quantity: { type: Number, required: true, default: 1 },
       price: { type: Number, required: true }, // Giá mỗi sản phẩm
