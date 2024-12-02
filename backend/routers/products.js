@@ -2,7 +2,7 @@ const express = require("express");
 const Product = require("../models/Product");
 
 const router = express.Router();
-
+ 
 // Lấy tất cả các sản phẩm theo subcategoryId
 router.get("/:subcategoryId", async (req, res) => {
   try {
