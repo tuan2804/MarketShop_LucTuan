@@ -6,7 +6,7 @@ const authRoutes = require("./routers/auth");
 const CategoryRoutes = require("./routers/categories");
 const SubcategoryRoutes = require("./routers/subcategory");
 const ProductRoutes = require("./routers/products");
-const OrderRoutes = require("./routers/orders"); // Import routes orders
+const OrderRoutes = require("./routers/orders"); //  Import routes orders
 
 const app = express();
 const PORT = 3000;
