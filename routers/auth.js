@@ -2,7 +2,7 @@ const express = require("express");
 const User = require("../models/User"); // Import model User
 const router = express.Router();
 
-// Endpoint xác thực
+// Endpoint xác thực 1
 router.post("/login", async (req, res) => {
   const { email, password } = req.body;
 
